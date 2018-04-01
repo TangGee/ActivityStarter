@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    tools:context="com.tlinux.fuck.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <Button
+            android:id="@+id/button_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <Button
+            android:id="@+id/button_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/new_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new_task"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <CheckBox
+        android:id="@+id/clean_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clean_top"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+
+
+    <CheckBox
+        android:id="@+id/mult_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mult_task"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <CheckBox
+        android:id="@+id/clean_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clean_task"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <CheckBox
+        android:id="@+id/new_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new_doc"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="461dp" />
+    <CheckBox
+        android:id="@+id/single_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="singleTop"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/setResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setResult"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="160dp" />
+        <CheckBox
+            android:id="@+id/start_forResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start_forResult"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="461dp" />
+    </LinearLayout>
+
+</LinearLayout>
