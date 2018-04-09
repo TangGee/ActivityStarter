@@ -9,13 +9,13 @@ import android.support.v7.app.AppCompatActivity;
  * Created by tlinux on 18-4-1.
  */
 
-public class FiveActivity extends AppCompatActivity {
+public class SixActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new StartController(findViewById(R.id.root),this);
-        setTitle("singelInstance.fuck.five");
+        setTitle("singelInstance.fuck.ThridActivity");
     }
 }
